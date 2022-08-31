@@ -1,8 +1,3 @@
-
-declerative pipeline :
-
-syntax:
-
 pipeline {
 	agent any 
 		stages{
