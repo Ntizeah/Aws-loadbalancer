@@ -3,21 +3,24 @@ pipeline {
 		stages{
 			stage('1-make a left'){
 				steps{
-					sh.'echo "walk..."
+					sh 'echo "walk..."'
 				}
-			}stage('2-make a rift'){
+			}
+			stage('2-make a rift'){
 				steps{
-					sh. 'echo "walk..."
+					sh 'echo "walk..."'
 				}
-			}stage('3-make another left'){
+			}
+			stage('3-make another left'){
 				steps{
-					sh. 'echo "walk.."
+					sh 'echo "walk.."'
 				}
-			}stage('4-cross the street'){
+			}
+			stage('4-cross the street'){
 				steps{
-					sh. 'echo "walk..."
+					sh 'echo "walk..."'
 				}
 			}
 		}
 	}
-}
+
